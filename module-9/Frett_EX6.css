@@ -1,0 +1,108 @@
+
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: darkblue;
+    border-bottom: 15px solid grey;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: aliceblue;
+    color: purple
+}
+
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 100px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+footer {
+    background-color: darkblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    left: 0;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#Movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#Movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: darkblue;
+    color: white;
+}
+
+#Movies td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#Copyright {
+    float: left;
+}

@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 29%;
+    margin: 2%;
+    
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {
+    text-align: center;
+    }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 1%;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 90%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .contact {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    text-align: center;
+    background-color: #f1f1f1;
+    margin: 2%;
+    padding: 1%;
+    
+  }
+
+  footer {
+    text-align: center;
+    
+  }
+
+  img {
+    width: 80%;
+  }
+
+  .intro {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 1%;
+    margin: 2%;
+  }
+
+  .intro img {
+    border-radius: 50%;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .intro h1 {
+    font-size: 70px;    
+    text-align: center;
+   
+  }
